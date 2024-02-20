@@ -29,7 +29,7 @@ onMounted(() => {
   </ul>
   <hr />
   <h1>カートに入った商品</h1>
-  <p v-if="!carts.length">カートに入っていません。sad</p>
+  <p v-if="!carts.length">カートに入っていません。sadfsfdd</p>
   <!--カート一覧-->
   <ul>
     <li v-for="cart in carts" :key="cart.id">
